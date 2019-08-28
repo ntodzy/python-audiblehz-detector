@@ -44,7 +44,7 @@ print
 while stream.is_active():
         
     buf[:-FRAME_SIZE] = buf[FRAME_SIZE:]
-    buf[-FRAME_SIZE:] = np.fromstring(stream.read(FRAME_SIZE), np.int16)
+    buf[-FRAME_SIZE:] = np.frombuffer(stream.read(FRAME_SIZE), np.int16)
 
     fft = np.fft.rfft(buf * window)
 
