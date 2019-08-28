@@ -62,9 +62,3 @@ while stream.is_active():
         print (len(FREQ_ARRAY))
         #print(n0) # Number in the equal temperment thing
        # print(num_frames)
-
-    if len(FREQ_ARRAY) >= 100:
-
-        stream.stop_stream()
-
-
