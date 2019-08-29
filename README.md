@@ -4,3 +4,5 @@ A simple not so simple python script to take in a live audio stream and determin
 Libraries used:
   Numpy : For advanced number system and FFT.
   PyAudio 0.2.11: Live Audio Data Stream, thanks for outputting into a nice NUMPY array!
+
+Oh and did I mention that it is cross-platform?
