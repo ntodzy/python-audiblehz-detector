@@ -5,7 +5,7 @@ import pyaudio
 
 #dont define filesystem as fs thx
 FREQ_ARRAY = []
-NOTE_MIN = 20 #C4 = 60
+NOTE_MIN = 20 #C4 = 60, Feel free to change these. I've only tested this range but it should work from 0-9 octaves
 NOTE_MAX = 80 #A4 = 69
 FSAMP = 22050 #idk should be 1024 but ok?
 FRAME_SIZE = 2048
