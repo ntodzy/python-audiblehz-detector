@@ -79,5 +79,5 @@ while stream.is_active():
         FREQ_ARRAY.append(freq) # Add to Freq Array
         print(note_name(n0), freq, len(FREQ_ARRAY)) #Run N0 through note name function to retreive note
 
-        # interactionToCall = interactions[note_name(n0).toString()] # These two lines are for serving out the interactions. If you dont want any interactions please leave commented! 
+        # interactionToCall = interactions[note_name(n0)] # These two lines are for serving out the interactions. If you dont want any interactions please leave commented! 
         # interactionToCall() 
