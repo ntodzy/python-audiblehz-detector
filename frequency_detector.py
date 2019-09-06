@@ -41,7 +41,7 @@ stream.start_stream()
 #Create an amazing thing that allows lots of plotting points
 window = .5 * (1 - np.cos(np.linspace(0, 2*np.pi, SAMPLES_PER_FFT, False)))
 
-print ('sampling at', FSAMP, 'Hz with Max Resolutoin of', FREQ_STEP, 'Hz')
+print ('sampling at', FSAMP, 'Hz with Max Resolution of', FREQ_STEP, 'Hz')
 print
 
 #Live User Interaction
